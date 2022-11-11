@@ -34,6 +34,7 @@ for i in input:
     current_floor = i
 
 input.insert(0, str(starting_floor))
+# result = ','.join(str(item) for item in input)
 result = ','.join(input)
 
 print(total_travel_time, result)
